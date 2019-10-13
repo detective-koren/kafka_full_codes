@@ -2,5 +2,5 @@
 # https://coursework.vschool.io/create-a-gitignore/
 
 # Don't track content of these folders
-# 3_run_producer.sh
-# 3_run_consumer.sh
+3_run_producer.sh
+4_run_consumer.sh
