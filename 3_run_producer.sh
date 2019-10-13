@@ -6,9 +6,9 @@ TOPIC_NUM=0
 
 TIME_INTERVAL='1s'
 
-IMAGES_DIR='/home/konan1/konan/producer/face'
+IMAGES_DIR='/home/konan3/konan/producer/face/'
 
-HOST='203.237.53.3:9092'
+HOST='203.237.53.5:9092'
 
 
 
