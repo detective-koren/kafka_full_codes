@@ -6,11 +6,23 @@ import datetime
 import os
 import cv2
 import numpy as np
+import argparse
+
+#arguments
+parser = argparse.ArgumentParser()
+parser.add_argument('--path', type=str)
+parser.add_argument('--client', type=str)
+parser.add_argument('--topic', type=str)
+
+args = parser.parse_args()
 
 # settings
-client = "203.237.53.4:9092"
-topic = 'test'
-path = "/home/konan2/Desktop/kafka-consumer/"
+#client = "203.237.53.5:9092"
+client = args.client
+#topic = 'frame0'
+topic = args.topic
+#path = "/home/konan3/konan/consumer/face"
+path = args.path
 
 consumer = KafkaConsumer(bootstrap_servers=client)
 
